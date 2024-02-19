@@ -2,7 +2,7 @@
 apiVersion: networking.gke.io/v1beta1
 kind: ManagedCertificate
 metadata:
-  name: achuabhin-tech
+  name: <example-com>
 spec:
   domains:
-    - www.achuabhin.tech
+    - <www.example.com>

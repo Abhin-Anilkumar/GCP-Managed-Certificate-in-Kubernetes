@@ -20,7 +20,7 @@ metadata:
       #    kubernetes.io/ingress.allow-https: "true"
 spec:
   rules:
-  - host: www.achuabhin.tech
+  - host: www.example.com
     http:
       paths:
       - path: /

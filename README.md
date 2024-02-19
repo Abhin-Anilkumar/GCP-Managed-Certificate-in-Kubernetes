@@ -37,21 +37,21 @@ The deployment consists of:
    ```sh
    kubectl get deployment,service,Ingress
 
-4. **DNS Configuration:**
+## **DNS Configuration:**
 
 Ensure your domain's DNS settings are configured to point to the external IP address provided by the Ingress.
 
-**Access Your Application:**
+## **Access Your Application:**
 
 Once the DNS changes have propagated, you should be able to access your Nginx server via https://www.example.com with a secure connection.
 
-**Important Notes**
+## **Important Notes**
 
 It may take a few minutes for the SSL certificate to be provisioned and for the HTTPS redirection to become active.
 The ManagedCertificate and FrontendConfig resources are specific to GKE and may not be available in other Kubernetes environments.
 
 
-**Troubleshooting**
+## **Troubleshooting**
 
 If the ManagedCertificate is not being issued, verify that the DNS configuration for your domain is correct and that the Google-managed certificates feature is enabled on your cluster.
 For any issues with the FrontendConfig not redirecting HTTP to HTTPS, ensure the resource is correctly defined and associated with your Ingress.

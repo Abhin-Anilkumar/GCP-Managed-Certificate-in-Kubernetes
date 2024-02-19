@@ -1,0 +1,1 @@
+# GCP-Managed-Certificate-in-Kubernetes

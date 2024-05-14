@@ -28,7 +28,7 @@ The deployment consists of:
    ```sh
    kubectl apply -f deployment.yaml
    kubectl apply -f certificate.yaml
-   kubectl apply -f certificate.yaml
+   kubectl apply -f ingress.yaml
 
 3. **Verify the deployment:**
 
